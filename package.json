@@ -1,0 +1,15 @@
+{
+  "name": "adm-activity-generator-gemini",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ADM Activity Generator with secure server-side Gemini generation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "dotenv": "latest",
+    "express": "latest"
+  }
+}
